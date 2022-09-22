@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/* ------------------font------------------ */
+@font-face {
+    font-family: "Abel";
+    src: url(../font/Abel/Abel-Regular.ttf);
+}
+@font-face {
+    font-family: "Lexend_Deca";
+    src: url(../font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Livvic";
+    src: url(../font/Livvic/Livvic-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(../font/Poppins-Bold.ttf);
+}
+/* --------x----------font---------x--------- */
+/* --------------------Navigation----------------- */
+header{
+    display: block;
+    overflow: hidden;
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 53px;
+    width: 100%;
+    
+}
+.nav{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    
+}
+.nav .company-name{
+    padding: 16px 22px;
+    display: block;
+    font-family: "PoppinsBold";
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.nav .company-name a{
+    text-decoration: none;
+    color: rgb(1, 117, 117);
+}
+.nav .menu-items{
+    display: flex;
+    margin-top: 3px;
+    padding: 15px;
+    font-family: "Abel";
+}
+.nav .menu-items a{
+    text-decoration: none;
+    color: black;
+}
+.nav .menu-items .Home{
+    padding-right: 45px;
+}
+.nav .menu-items .Hotel{
+    padding-right: 45px;
+}
+.nav .menu-items .Rooms{
+    padding-right: 45px;
+}
+.reservation button{
+    padding:  16px 90px;
+    border: none;
+    background-color: rgb(17, 0, 255);
+    font-family: "ABel";
+    font-size: large;
+    color: aqua;
+    height: 53px;
+    border-radius: 2px;
+}
+.reservation button:active{
+    background-color: rgb(52, 4, 172);
+}
+/* -----------x---------Navigation---------x-------- */
+/* ------------------------HeroSection----------------- */
+.title{
+    height: 530px;
+    width: 100%;
+    background-color: darksalmon;
+    display: flex;
+}
+.title .title-left{
+    height: 100%;
+    width: 50%;
+    background-color: aliceblue;
+}
+.title .display-name{
+    margin: 120px 0 0 160px;
+    font-family: "PoppinsBold";
+    font-size: 40px;
+    color: #1f2e48;
+    line-height: 45px;
+    width: 10px;
+}
+.title .display-name-discrip{
+    margin: 5px 0 0 160px;
+    font-family: "Poppins";
+    color: #4B5368;
+}
+.title .booking-button{
+    display: flex;
+    margin: 35px 0 0 160px;
+
+    
+}
+.title .booking-button .spa{
+    height: 50px;
+    width: 63px;
+    background-color: #F9D6C2;
+    border-radius: 8px;
+    margin-right: 4px;
+    padding-top: 15PX;
+    text-align: center;
+}
+.title .booking-button .hotel{
+    height: 50px;
+    width: 63px;
+    background-color: #CBE8F8;
+    border-radius: 8px;
+    margin-right: 4px;
+    padding-top: 15PX;
+    text-align: center;
+}
+.title .booking-button .breakfast{
+    height: 50px;
+    width: 63px;
+    background-color: #F5D7E1;
+    border-radius: 8px;
+    padding-top: 15PX;
+    text-align: center;
+}
+
+/* ----------x--------------HeroSection---------x-------- */
